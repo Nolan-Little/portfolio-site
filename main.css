@@ -1,0 +1,19 @@
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1, nav {
+  font-family: 'Cabin Condensed', sans-serif;
+}
+
+.content__section {
+  padding-top: 2.5rem;
+  height: 100vh;
+}
+
+@media screen and (min-width: 1000px) {
+  a.brand-logo {
+    margin-left: 1rem;
+  }
+}
