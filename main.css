@@ -7,13 +7,100 @@ h1, nav {
   font-family: 'Cabin Condensed', sans-serif;
 }
 
-.content__section {
-  padding-top: 2.5rem;
+section.splash {
   height: 100vh;
 }
 
+h1.splash--title {
+  margin: 10rem auto;
+  font-size: 3rem;
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+img.experience--logo {
+  margin: auto auto;
+  display: block;
+  min-height:50px;
+  min-width:175px;
+  max-width: 250px;
+}
+
+div.content--container {
+  padding: 1rem 1rem;
+  box-shadow: #757575bd 1px 1px 1px;
+}
+
+div.icon--container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+div.icon--container>div>img{
+  max-width: 75px;
+  max-height: 75px;
+  padding: 0 5px;
+}
+
+div.logo>p {
+  text-align: center;
+}
+
+a.contact--icon>i {
+  font-size: 1.6rem;
+  padding-right: .2rem;
+}
+
+li>a.contact--icon>i {
+  font-size: 1.7rem;
+  vertical-align: middle;
+  padding-top: 1.2rem;
+}
+
+li>a.contact--icon {
+  padding-right: .2rem;
+}
+
+
+
+/* large screen queries------------------------------------------- */
 @media screen and (min-width: 1000px) {
   a.brand-logo {
     margin-left: 1rem;
   }
+
+  h1.splash--title {
+    font-size: 4rem;
+  }
+
+  li>a.contact--icon>i {
+    font-size: 3rem;
+    padding: .2rem .8rem;
+  }
+
+  a.contact--icon>i {
+    font-size: 3rem;
+    padding: 1rem;
+  }
 }
+
+@media screen and (min-width: 1080px) {
+  img.experience--logo {
+    min-height:50px;
+    min-width:175px;
+    max-width: 350px;
+    padding-top: .5rem;
+  }
+
+  div.icon--container>div>img{
+    max-width: 125px;
+    max-height: 125px;
+    padding: 0 5px;
+  }
+
+}
+

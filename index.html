@@ -8,17 +8,26 @@
   <link rel="stylesheet" href="materialize.css">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Cabin+Condensed|Montserrat" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/brands.css" integrity="sha384-1KLgFVb/gHrlDGLFPgMbeedi6tQBLcWvyNUN+YKXbD7ZFbjX6BLpMDf0PJ32XJfX"
+    crossorigin="anonymous">
   <link rel="stylesheet" href="main.css">
   <title>Nolan Little Portfolio</title>
 </head>
 
 <body>
-
+  <!-- NAVBAR START---------------------------------------------------- -->
   <div class="navbar-fixed">
-    <nav class="blue darken-4">
+    <nav class="blue darken-2">
       <div class="nav-wrapper">
-        <a href="#!" class="brand-logo">Nolan Little</a>
+        <a href="#splash" class="brand-logo center">Nolan Little</a>
         <a href="#" data-target="mobile-nav" class="sidenav-trigger right"><i class="material-icons">menu</i></a>
+        <ul class="left">
+          <li><a class="contact--icon" href="https://www.linkedin.com/in/nolan-little/"><i class="fab fa-linkedin-in"></i></a></li>
+          <li><a class="contact--icon" href="https://github.com/Nolan-Little"><i class="devicon-github-plain-wordmark"></i></a></li>
+        </ul>
         <ul class="right hide-on-med-and-down">
           <li><a href="#about">About Me</a></li>
           <li><a href="#experience">Experience</a></li>
@@ -36,30 +45,163 @@
     <li><a class="sidenav-close" href="#portfolio">Portfolio</a></li>
     <li><a class="sidenav-close" href="#tech">Technologies</a></li>
     <li><a class="sidenav-close" href="#contact">Contact Me</a></li>
+    <li><a class="sidenav-close" href="#splash">Jump to Top</a></li>
   </ul>
+  <!-- NAVBAR END---------------------------------------------------------------- -->
+  <article class="portfolio--content">
+    <!-- Main splash---------------------------- -->
+    <section class="splash row scrollspy" id="splash">
+      <h1 class="flow-text content__section--header splash--title">Nolan Little, Full Stack Software Developer</h1>
+    </section>
+    <!-- ABOUT SECTION---------------------------------------------------------- -->
+    <section class="container scrollspy" id="about">
+      <h2 class="col s12 flow-text content__section--header">About Me</h2>
+      <div class="row content--container">
+        <div class="col s12 m6">
+          <p class="content__section--copy">My path to web development has not been a straightforward
+            one. While computers have been a part of my life from a young age I had never tried my hand at programming.
+            The start of the path was my college study of Music Business with a focus on Audio Engineering. During this
+            time I completed an independent study using Pure Data, a graphic programming interface to create a fully
+            software
+            driven effects pedal. At the time, I had no idea I was learning general programming concepts. Now that
+            interest has come full circle. Learning web development has given me the opportunity to exercise the
+            logical side of
+            myself as well as employ my creative spirit to solve problems, and to impact and help others.
+          </p>
+        </div>
+        <div class="col s12 m6 img-wrapper">
+          <img alt="image placeholder">
+        </div>
+      </div>
+    </section>
 
-  <section class="container content__section"id="about">
-    <h2 class="flow-text content__section--header">About Me</h2>
-  </section>
+    <!-- Experience ----------------------------------------------------------- -->
+    <section class="container row scrollspy" id="experience">
+      <h2 class="flow-text content__section--header">Experience</h2>
+      <div class="row content--container">
+        <div class="col s12 m6">
+          <h3 class="flow-text">Nashville Software School</h3>
+          <p>Intensive full-time 6-month software development bootcamp anchoring learning with both individual and
+            team-based projects. Tech Stack: Python/ Django; React.js; Javascript; HTML5; CSS3; SQL fundamentals.</p>
+        </div>
+        <div class="col s12 m6">
+          <img src="images/NSSlogo.jpeg" alt="Nashville Software School Logo" class="experience--logo">
+        </div>
+      </div>
+      <div class="row content--container">
+        <div class="col s12 m6 push-m6">
+          <h3>Etc. Restaurant</h3>
+          <p>A respected Green Hills upscale casual restaurant and bar with Deb Paquette at the helm. Provides a unique
+            take on global American fusion in a casual environment with upscale service.</p>
+        </div>
+        <div class="col s12 m6 pull-m6">
+          <img src="images/etclogo.png" alt="Etc. Restaurant Logo" class="experience--logo">
+        </div>
+      </div>
+      <div class="row content--container">
+        <div class="col s12 m6">
+          <h3>Swing Dance Nashville</h3>
+          <p>Non-profit organization with the mission of preserving the history of the big band swing era, and
+            teaching the public about the music and dances of the time through weekly classes, social dances, and
+            performances.</p>
+        </div>
+        <div class="col s12 m6">
+          <img src="images/dancephoto.jpg" alt="Nolan Little Dancing" class="experience--logo">
+        </div>
+      </div>
+    </section>
 
-  <section class="container content__section"id="experience">
-    <h2 class="flow-text content__section--header">Experience</h2>
-  </section>
+    <!-- Portfolio------------------------------------------------------ -->
+    <section class="container row scrollspy" id="portfolio">
+      <div class="col s12">
+        <h2 class="flow-text content__section--header">Portfolio</h2>
+      </div>
+    </section>
 
-  <section class="container content__section"id="portfolio">
-    <h2 class="flow-text content__section--header">Portfolio</h2>
-  </section>
 
-  <section class="container content__section"id="tech">
-    <h2 class="flow-text content__section--header">Technologies</h2>
-  </section>
+    <!-- Technologies---------------------------------------------------------- -->
+    <section class="container row scrollspy" id="tech">
+      <div class="col s12 content--container">
+        <h2 class="flow-text content__section--header">Technologies</h2>
+        <div class="icon--container">
+          <div class="logo">
+            <img src="images/css.png" alt="CSS3 Logo">
+            <p>CSS3</p>
+          </div>
+          <div class="logo">
+            <img src="images/html.png" alt="HTML Logo">
+            <p>HTML5</p>
+          </div>
+          <div class="logo">
+            <img src="images/js.png" alt="Javascript Logo">
+            <p>Javascript</p>
+          </div>
+          <div class="logo">
+            <img src="images/npm.png" alt="NPM Logo">
+            <p>NPM</p>
+          </div>
+          <div class="logo">
+            <img src="images/python.png" alt="Python Logo" class="circle">
+            <p>Python</p>
+          </div>
+          <div class="logo">
+            <img src="images/react.png" alt="React Logo">
+            <p>React</p>
+          </div>
+          <div class="logo">
+            <img src="images/sql.png" alt="MySQL logo">
+            <p>MySQL</p>
+          </div>
+          <div class="logo">
+            <img src="images/vscode.png" alt="vscode logo">
+            <p>VS Code</p>
+          </div>
+          <div class="logo">
+            <img src="images/browserify.png" alt="browserify logo">
+            <p>Browserify</p>
+          </div>
+          <div class="logo">
+            <img src="images/firebase.png" alt="firebase logo">
+            <p>Firebase</p>
+          </div>
+          <div class="logo">
+            <img src="images/grunt.png" alt="Grunt logo">
+            <p>Grunt</p>
+          </div>
+          <div class="logo">
+            <img src="images/git.png" alt="Git logo">
+            <p>Git</p>
+          </div>
+          <div class="logo">
+            <img src="images/jquery.png" alt="jQuery logo">
+            <p>jQuery</p>
+          </div>
+          <div class="logo">
+            <img src="images/materialize.png" alt="Materialize logo">
+            <p>Materialize</p>
+          </div>
+          <div class="logo">
+            <img src="images/reactstrap-purple.png" alt="React Strap logo">
+            <p>ReactStrap</p>
+          </div>
+        </div>
+      </div>
+    </section>
 
-  <section class="container content__section"id="contact">
-    <h2 class="flow-text content__section--header">Contact</h2>
-  </section>
+    <!-- Contact---------------------------------------------------------- -->
+    <section class="container row scrollspy" id="contact">
+      <h2 class="flow-text content__section--header">Contact</h2>
+      <div class="s12 col m4 offset-m4 content--container">
+        <a href="mailto: little.nolan@gmail.com">little.nolan@gmail.com</a>
+        <p>Phone: (315)870-0312</p>
+        <a class="contact--icon" href="https://www.linkedin.com/in/nolan-little/"><i class="fab fa-linkedin-in"></i></a>
+        <a class="contact--icon" href="https://github.com/Nolan-Little"><i class="contact--icon devicon-github-plain-wordmark colored"></i></a>
+      </div>
+    </section>
+  </article>
 
 </body>
-
+<script src="node_modules/jquery/dist/jquery.js"></script>
 <script src="materialize.js"></script>
 <script src="main.js"></script>
 
