@@ -65,6 +65,11 @@ li>a.contact--icon {
   padding-right: .2rem;
 }
 
+.photo-cred {
+  font-size: .8rem;
+  text-align: center;
+}
+
 
 
 /* large screen queries------------------------------------------- */
@@ -85,6 +90,11 @@ li>a.contact--icon {
   a.contact--icon>i {
     font-size: 3rem;
     padding: 1rem;
+  }
+
+  div.card-image>img{
+    min-height: 160px;
+    height: auto;
   }
 }
 
