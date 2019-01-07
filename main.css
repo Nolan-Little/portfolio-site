@@ -7,6 +7,11 @@ h1, nav {
   font-family: 'Cabin Condensed', sans-serif;
 }
 
+a.active.nav-link {
+  background-color: rgb(22,107,161);
+  text-decoration: underline;
+}
+
 section.splash {
   height: 100vh;
 }
@@ -37,7 +42,7 @@ div.content--container {
 div.icon--container {
   display: flex;
   flex-flow: row wrap;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 div.icon--container>div>img{
