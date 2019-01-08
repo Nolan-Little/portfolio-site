@@ -51,7 +51,8 @@
   <article class="portfolio--content">
     <!-- Main splash---------------------------- -->
     <section class="splash row scrollspy" id="splash">
-      <h1 class="flow-text content__section--header splash--title">Hi, I'm Nolan Little,<br> A Full Stack Software Developer</h1>
+      <h1 class="flow-text content__section--header splash--title">Hi, I'm Nolan Little,<br> A Full Stack Software
+        Developer</h1>
     </section>
     <!-- ABOUT SECTION---------------------------------------------------------- -->
     <section class="container scrollspy" id="about">
@@ -135,10 +136,44 @@
                 <img src="images/ReSpeakLogo.png">
               </div>
               <div class="card-action">
-                <a class="blue-text text-darken-2" href="https://github.com/Nolan-Little/ReSpeak">Github Repository</a>
+                <a class="blue-text text-darken-4 modal-trigger" href="#modal1">See Project Details</a>
+                <p>or</p>
+                <a class="blue-text text-darken-1" href="https://github.com/Nolan-Little/ReSpeak">Github
+                  Repository</a>
               </div>
             </div>
           </div>
+          <!-- Modal Structure -->
+          <div id="modal1" class="modal">
+            <div class="modal-content">
+              <h4>ReSpeak</h4>
+              <p>A personal Dictaphone Web App.</p>
+              <figure>
+                <figcaption>A first time user logging in will see the following dashboard. A default collection waiting
+                  to be filled! User's can start by adding a new note or by renaming their default collection.</figcaption>
+                <img class="modal-img responsive-img materialboxed" src="./images/RespeakScreenshots/NewUserDashboard.png"
+                  alt=" Screenshot of new user dashboard ">
+              </figure>
+              <figure>
+                <figcaption>Create new notes by adding a title, text content, and choosing the containing
+                  collection</figcaption>
+                <img class="modal-img responsive-img materialboxed" src="./images/RespeakScreenshots/NewNoteForm.png"
+                  alt=" Screenshot of new user dashboard ">
+              </figure>
+              <figure>
+                <figcaption>Record Audio to go with the note.</figcaption>
+                <img class="modal-img responsive-img materialboxed" src="./images/RespeakScreenshots/RecordAudio.png"
+                  alt=" Screenshot of new user dashboard ">
+              </figure>
+              <p>ReSpeak can be used to record anything from a new book idea to a meeting with your department. It
+                allows for easy organization of notes by changing the containing collection. Edit the title and content
+                of collections and notes. Delete them when you no longer need them.</p>
+            </div>
+            <div class="modal-footer">
+              <a href="#!" class="modal-close waves-effect waves-green btn-flat">Close</a>
+            </div>
+          </div>
+
 
           <div class="col s12 m3">
             <div class="card">
@@ -146,7 +181,7 @@
                 <img src="images/comingsoon.png">
               </div>
               <div class="card-action">
-                <a class="blue-text text-darken-2" disabled href="#portfolio">Coming Soon</a>
+                <a class="blue-text text-darken-1" disabled href="#portfolio">Coming Soon</a>
               </div>
             </div>
           </div>
@@ -160,12 +195,6 @@
     <section class="container row scrollspy" id="tech">
       <div class="col s12 content--container">
         <h2 class="flow-text content__section--header">Technologies</h2>
-
-        <!-- <div id="test1" class="col s12">Test 1</div>
-            <div id="test2" class="col s12">Test 2</div>
-            <div id="test3" class="col s12">Test 3</div>
-            <div id="test4" class="col s12">Test 4</div> -->
-
         <div class="icon--container row">
           <div class="col s12 tab-header">
             <ul class="tabs">
