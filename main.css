@@ -92,7 +92,7 @@ li>a.contact--icon {
 footer {
   height:15vh;
   background: rgb(22,107,161, .2);
-  padding-top: 1rem;
+  padding: 1rem 0 1rem 0;
   text-align: center;
 }
 
@@ -103,6 +103,11 @@ footer > ul {
   align-items: center;
   margin: 0;
 }
+
+/* img.modal-img{
+  max-width:250px;
+  height: auto;
+} */
 
 
 /* large screen queries------------------------------------------- */
@@ -125,9 +130,13 @@ footer > ul {
     padding: 1rem;
   }
 
-  div.card-image>img{
+  div.card-image>img {
     min-height: 160px;
     height: auto;
+  }
+
+  footer {
+    height: 20vh;
   }
 }
 
