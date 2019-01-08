@@ -62,8 +62,14 @@ a.contact--icon>i {
 
 li>a.contact--icon>i {
   font-size: 1.7rem;
-  vertical-align: middle;
+  vertical-align: text-bottom;
   padding-top: 1.2rem;
+}
+
+li>a.contact__footer--icon>i {
+  font-size: 3rem;
+  vertical-align: text-bottom;
+  padding: 0 .4rem;
 }
 
 li>a.contact--icon {
@@ -81,6 +87,21 @@ li>a.contact--icon {
 
 .hidden {
   display: none;
+}
+
+footer {
+  height:15vh;
+  background: rgb(22,107,161, .2);
+  padding-top: 1rem;
+  text-align: center;
+}
+
+footer > ul {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  margin: 0;
 }
 
 
