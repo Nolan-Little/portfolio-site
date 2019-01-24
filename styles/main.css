@@ -26,23 +26,32 @@ h2 {
   text-align: center;
 }
 
-img.experience--logo {
-  margin: auto auto;
-  display: block;
-  min-height:50px;
-  min-width:175px;
-  max-width: 250px;
-}
-
 div.content--container {
-  padding: 1rem 1rem;
-  box-shadow: #757575bd 1px 1px 1px;
+    padding: 1rem 1rem;
+    box-shadow: #757575bd 1px 1px 1px;
 }
 
+div.center--flex{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem 0;
+}
+
+/* icons and image ---------------------------------------------------------------------- */
 div.icon--container {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-between;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+img.experience--logo {
+    margin: auto auto;
+    display: block;
+    min-height:50px;
+    min-width:175px;
+    max-width: 250px;
 }
 
 div.icon--container>div>img{
@@ -51,6 +60,12 @@ div.icon--container>div>img{
   padding: 0 5px;
 }
 
+.devicon-github-original-wordmark.colored,
+.devicon-github-original.colored,
+.devicon-github-plain-wordmark.colored,
+.devicon-github-plain.colored {
+    color: rgb(4,152,236)
+}
 div.logo>p {
   text-align: center;
 }
@@ -88,7 +103,7 @@ a.btn {
 .hidden {
   display: none;
 }
-
+/* footer---------------------------------------------------------------------- */
 footer {
   height:15vh;
   background: rgb(22,107,161, .2);
@@ -104,6 +119,7 @@ footer > ul {
   margin: 0;
 }
 
+/* Start override materialize tab colors------------------------------------- */
 .tab-header{
   margin-bottom: 1rem;
 }
@@ -223,6 +239,10 @@ footer > ul {
     font-size: 3rem;
     padding: 1rem;
   }
+
+  div.card {
+    height: 25rem;
+ }
 
   div.card-image>img {
     min-height: 160px;
