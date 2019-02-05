@@ -12,12 +12,8 @@ a.active.nav-link {
   text-decoration: underline;
 }
 
-section.splash {
-  height: 100vh;
-}
-
 h1.splash--title {
-  margin: 10rem auto;
+  margin: 7rem auto;
   font-size: 3rem;
   text-align: center;
 }
@@ -27,8 +23,12 @@ h2 {
 }
 
 div.content--container {
-    padding: 1rem 1rem;
+    /* padding: 1rem 1rem; */
     box-shadow: #757575bd 1px 1px 1px;
+}
+
+p.content__section--copy{
+    padding: 1.3rem 0 0 2rem;
 }
 
 div.center--flex{
@@ -44,6 +44,14 @@ div.icon--container {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
+}
+img.portrait-img {
+    margin-right: -.75rem;
+    display: block;
+    min-height:50px;
+    min-width:175px;
+    max-width: 250px;
+    float: right;
 }
 
 img.experience--logo {
@@ -241,11 +249,12 @@ footer > ul {
   }
 
   div.card {
-    height: 25rem;
+    height: 27rem;
  }
 
   div.card-image>img {
     min-height: 160px;
+    max-height: 160px;
     height: auto;
   }
 
