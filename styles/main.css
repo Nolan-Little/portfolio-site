@@ -253,8 +253,8 @@ footer > ul {
  }
 
   div.card-image>img {
-    min-height: 105px;
-    max-height: 105px;
+    min-height: 120px;
+    max-height: 120px;
     width: auto;
   }
 
