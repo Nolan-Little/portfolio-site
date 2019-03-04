@@ -27,6 +27,14 @@ div.content--container {
     box-shadow: #757575bd 1px 1px 1px;
 }
 
+
+.about--container .flex-img {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
 p.content__section--copy{
     padding: 1.3rem 0 0 2rem;
 }
@@ -51,7 +59,6 @@ img.portrait-img {
     min-height:50px;
     min-width:175px;
     max-width: 250px;
-    float: right;
 }
 
 img.experience--logo {
@@ -225,6 +232,12 @@ footer > ul {
 
 
 /* large screen queries------------------------------------------- */
+@media screen and (min-width: 600px) {
+    div.about--container {
+        display: flex;
+    }
+}
+
 @media screen and (min-width: 1000px) {
   a.btn {
     margin-bottom: 2rem;
@@ -265,7 +278,10 @@ footer > ul {
   footer {
     height: 20vh;
   }
+
+
 }
+
 
 @media screen and (min-width: 1080px) {
   img.experience--logo {
